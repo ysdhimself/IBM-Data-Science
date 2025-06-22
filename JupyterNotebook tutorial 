@@ -1,0 +1,212 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNKyC+hONSvlg9287mr7g7X",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ysdhimself/IBM-Data-Science/blob/main/JupyterNotebook%20tutorial%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This is the Title of the Notebook"
+      ],
+      "metadata": {
+        "id": "1kyOnD_Cq_0B"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This is the introduction for the assignment"
+      ],
+      "metadata": {
+        "id": "MiJrLF0hrFL-"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Data science Languages\n",
+        "- Python  \n",
+        "- R  \n",
+        "- SQL  \n",
+        "- Scala  \n",
+        "- Julia  \n",
+        "- Java  \n",
+        "- SAS"
+      ],
+      "metadata": {
+        "id": "bbRsh-kmrLBv"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Data Science Libraries\n",
+        "\n",
+        "- **Pandas** – Data manipulation and analysis  \n",
+        "- **NumPy** – Numerical computing  \n",
+        "- **Matplotlib** – Data visualization  \n",
+        "- **Seaborn** – Statistical data visualization  \n",
+        "- **Scikit-learn** – Machine learning  \n",
+        "- **TensorFlow** – Deep learning  \n",
+        "- **Keras** – Neural networks  \n",
+        "- **PyTorch** – Deep learning  \n",
+        "- **Statsmodels** – Statistical modeling  \n",
+        "- **NLTK** – Natural Language Processing  "
+      ],
+      "metadata": {
+        "id": "vMg8tMflrYUh"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Data Science Tools\n",
+        "\n",
+        "| Tool              | Category                | Description                                 |\n",
+        "|-------------------|--------------------------|---------------------------------------------|\n",
+        "| Jupyter Notebook  | IDE/Notebook             | Interactive coding and visualization        |\n",
+        "| RStudio           | IDE                      | Development environment for R               |\n",
+        "| Apache Hadoop     | Big Data Processing      | Distributed data storage and processing     |\n",
+        "| Apache Spark      | Big Data & Analytics     | Fast, in-memory big data processing         |\n",
+        "| TensorFlow        | Deep Learning Library    | Open-source platform for machine learning   |\n",
+        "| Scikit-learn      | Machine Learning Library | Tools for data mining and analysis          |\n",
+        "| Tableau           | Data Visualization       | Interactive visual analytics platform       |\n",
+        "| Power BI          | Data Visualization       | Business intelligence and visualization     |\n",
+        "| SQL               | Query Language           | Managing and querying structured data       |"
+      ],
+      "metadata": {
+        "id": "lzdJYnQorfH8"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Arithmetic Expression Examples\n",
+        "\n",
+        "Arithmetic expressions are used to perform basic mathematical operations in programming. Here are a few common examples:\n",
+        "\n",
+        "- **Addition**: `5 + 3` results in **8**\n",
+        "- **Subtraction**: `10 - 4` results in **6**\n",
+        "- **Multiplication**: `7 * 2` results in **14**\n",
+        "- **Division**: `20 / 4` results in **5.0**\n",
+        "- **Exponentiation**: `2 ** 3` results in **8**\n",
+        "- **Modulus**: `10 % 3` results in **1`\n",
+        "\n",
+        "These expressions are useful for data manipulation, statistical calculations, and various other tasks in data science."
+      ],
+      "metadata": {
+        "id": "n8L6Aw4crjt_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Multiply and add numbers\n",
+        "a = 5\n",
+        "b = 3\n",
+        "c = 2\n",
+        "\n",
+        "# Multiplication\n",
+        "product = a * b\n",
+        "\n",
+        "# Addition\n",
+        "sum_result = product + c\n",
+        "\n",
+        "# Display results\n",
+        "print(\"Multiplication Result:\", product)\n",
+        "print(\"Final Result after Addition:\", sum_result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TxQm9fC-rrol",
+        "outputId": "4e0e8890-c10b-4b9d-ce87-dd1b545db441"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Multiplication Result: 15\n",
+            "Final Result after Addition: 17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Convert minutes to hours\n",
+        "\n",
+        "# Input: number of minutes\n",
+        "minutes = 150\n",
+        "\n",
+        "# Conversion: 1 hour = 60 minutes\n",
+        "hours = minutes / 60\n",
+        "\n",
+        "# Display the result\n",
+        "print(f\"{minutes} minutes is equal to {hours} hours\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Qc-_4G8orvOw",
+        "outputId": "b2c4da5d-3539-4b48-bc84-e920fe2cdb75"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "150 minutes is equal to 2.5 hours\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Leveraging Jupyterlite Notebook on Skills Network labs, you will create your Jupyterlite Notebook (in English) and share it via a public GitHub link."
+      ],
+      "metadata": {
+        "id": "8RajUSr9sCn8"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Yashdeep Singh Dadiala"
+      ],
+      "metadata": {
+        "id": "Vh_6nO9SsEhq"
+      }
+    }
+  ]
+}
